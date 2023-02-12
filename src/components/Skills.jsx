@@ -1,12 +1,15 @@
 import React, { useRef,useEffect } from 'react'
 import { Box,Center,Flex,Heading,Image,SimpleGrid,Text, useMediaQuery } from '@chakra-ui/react'
+import { motion, useInView, useScroll, useTransform,useAnimation } from "framer-motion"
+
+import threejs from '../images/threejs.svg'
 import bash from '../images/bash-1.svg'
 import flask from '../images/flask.svg'
 import js from '../images/logo-javascript.svg'
 import mongodb from '../images/mongodb-icon.svg'
 import opencv from '../images/opencv.svg'
 import python from '../images/python.svg'
-import { motion, useInView, useScroll, useTransform,useAnimation } from "framer-motion"
+
 
 const Skills = () => {
     const [isSmallerScreen] = useMediaQuery('(max-width:768px)')
@@ -35,7 +38,7 @@ const Skills = () => {
             >SKILLS</Heading>
             <SimpleGrid columns={3} spacing={10} p={5}>
             <ImageBox src={bash}/>
-            <ImageBox src={flask}/>
+            <ImageBox src={threejs}/>
             <ImageBox src={js}/>
             <ImageBox src={mongodb}/>
             <ImageBox src={opencv}/>
