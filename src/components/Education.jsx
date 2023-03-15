@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Heading, Text, VStack,StackDivider } from '@chakra-ui/react'
+import { Box, Center, Heading, Text, VStack } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import React from 'react'
 
@@ -32,7 +32,7 @@ const Education = () => {
             position='absolute' 
             left={0} 
             right={0}
-            mt={[8,null]} 
+            mt={{base:12,md:16}} 
             fontSize={['68px','120px','150px','200px','250px']} 
             color='#BABCBF'
             as={motion.div}

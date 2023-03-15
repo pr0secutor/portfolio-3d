@@ -1,9 +1,9 @@
 import {React, Suspense} from 'react'
 import { Box, Flex,useMediaQuery,Text, Center } from '@chakra-ui/react'
-import { Canvas,useThree } from "@react-three/fiber"
-import DistortedSphere from './3dObjects/DistortedSphere'
+import { Canvas } from "@react-three/fiber"
 // import {Model} from './3dObjects/Magic_crystal'
 // import { Model } from './3dObjects/Crystal_1'
+// import {Model} from './3dObjects/Rocket'
 import RotatingBox from './3dObjects/RotatingBox'
 import {motion} from 'framer-motion'
 import { OrbitControls } from '@react-three/drei'
@@ -32,7 +32,7 @@ const LandPage = () => {
     <Center 
     mt={6} mb={[10,40,null,null]}
     >
-      <Flex borderRadius={10} w={['98%','95%','95%','95%']} h='87vh' bgGradient='linear(to-br, #ff7e3d, #EA5455)' boxShadow='md'  direction='column' justify='center'
+      <Flex borderRadius={10} w={['98%','95%','95%','95%']} h={'max(87vh,600px)'} bgGradient='linear(to-br, #ff7e3d, #EA5455)' boxShadow='md'  direction='column' justify='center'
       as={motion.div}
       variants={container}
       initial='hidden'

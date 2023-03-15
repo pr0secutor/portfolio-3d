@@ -1,10 +1,9 @@
-import React, { useRef,useEffect } from 'react'
-import { Box,Center,Flex,Heading,Image,SimpleGrid,Text, useMediaQuery } from '@chakra-ui/react'
-import { motion, useInView, useScroll, useTransform,useAnimation } from "framer-motion"
+import React from 'react'
+import { Center,Flex,Heading,Image,SimpleGrid, useMediaQuery } from '@chakra-ui/react'
+import { motion, useScroll, useTransform } from "framer-motion"
 
 import threejs from '../images/threejs.svg'
 import bash from '../images/bash-1.svg'
-import flask from '../images/flask.svg'
 import js from '../images/logo-javascript.svg'
 import mongodb from '../images/mongodb-icon.svg'
 import opencv from '../images/opencv.svg'
