@@ -15,7 +15,7 @@ const Education = () => {
         }
       }
       
-      const item = {
+    const item = {
         hidden: { opacity: 0,y:60},
         show: { opacity: 1,y:0 ,transition:{duration:0.3} }
       }
@@ -23,6 +23,7 @@ const Education = () => {
   return (
     <Center mt={[10,40,null,null]} mb={[10,40,null,null]}>
         <VStack spacing={[20,40,null,null]} w={['99%','95%',null,null]} h='87vh' justifyContent='center'
+        
         as={motion.div} 
         variants={container}
         initial='hidden'
@@ -33,8 +34,8 @@ const Education = () => {
             left={0} 
             right={0}
             mt={{base:12,md:16}} 
-            fontSize={['68px','120px','150px','200px','250px']} 
-            color='#BABCBF'
+            fontSize={['68px','120px','150px','200px','250px']}
+            color='#D1D2D5'
             as={motion.div}
             variants={item}>Education</Heading>
             <Box mt={16} mb={16} as={motion.div} variants={item}>

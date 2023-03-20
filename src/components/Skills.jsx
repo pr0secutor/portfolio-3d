@@ -33,7 +33,7 @@ const Skills = () => {
             style={isSmallerScreen ? '':{translateX:x,transition:'all ease-out 0.5s'}}
             mt={20} mb={20} 
             fontSize={['100px','160px','200px','300px','350px']}
-            opacity='0.3' 
+            opacity='0.2' 
             >SKILLS</Heading>
             <SimpleGrid columns={3} spacing={10} p={5}>
             <ImageBox src={bash}/>
