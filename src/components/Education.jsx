@@ -33,8 +33,8 @@ const Education = () => {
             position='absolute' 
             left={0} 
             right={0}
-            mt={{base:12,md:16}} 
-            fontSize={['68px','120px','150px','200px','250px']}
+            mt={{base:12,sm:20,md:28,lg:16}} 
+            fontSize={['68px','115px','150px','200px','250px']}
             color='#D1D2D5'
             as={motion.div}
             variants={item}>Education</Heading>

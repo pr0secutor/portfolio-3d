@@ -11,7 +11,7 @@ import python from '../images/python.svg'
 
 
 const Skills = () => {
-    const [isSmallerScreen] = useMediaQuery('(max-width:768px)')
+    const [isSmallerScreen] = useMediaQuery('(max-width:767px)')
 
     const { scrollYProgress } = useScroll();
     const x = useTransform(scrollYProgress,[0,1],['0%','50%'])
@@ -28,7 +28,7 @@ const Skills = () => {
     >
         <Flex w={['99%','95%',null,null]} h='87vh' direction='column' justify='center'>
             <Heading 
-            position='absolute' left={['0','0','0','-39vw','-20vw']} right={isSmallerScreen ? 0:''}
+            position='absolute' left={['0','0','-20vw','-39vw','-20vw']} right={isSmallerScreen ? 0:''}
             as={motion.div}
             style={isSmallerScreen ? '':{translateX:x,transition:'all ease-out 0.5s'}}
             mt={20} mb={20} 

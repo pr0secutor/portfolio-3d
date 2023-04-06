@@ -32,7 +32,7 @@ const LandPage = () => {
     <Center 
     mt={6} mb={[10,40,null,null]}
     >
-      <Flex borderRadius={10} w={['98%','95%','95%','95%']} h={'max(87vh,600px)'} bgGradient='linear(to-br, #ff7e3d, #EA5455)' boxShadow='md'  direction='column' justify='center'
+      <Flex borderRadius={10} w={['98%','95%',null]} h={'max(87vh,500px)'} bgGradient='linear(to-br, #ff7e3d, #EA5455)' boxShadow='md'  direction='column' justify='center'
       as={motion.div}
       variants={container}
       initial='hidden'
