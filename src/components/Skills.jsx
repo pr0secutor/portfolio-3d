@@ -26,6 +26,7 @@ const Skills = () => {
   return (
     <Center
       as={motion.div}
+      overflow={"hidden"}
       h={"max(75vh,400px)"}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 2 } }}
