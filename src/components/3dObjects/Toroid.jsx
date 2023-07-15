@@ -13,7 +13,7 @@ const Toroid = () => {
 
   return (
     <mesh ref={mesh} position={[0,0,-0.3]}>
-      <torusKnotGeometry args={[0.8, 0.1, 95, 20]} />
+      <torusKnotGeometry args={[0.8, 0.1, 95, 25]} />
       <meshPhongMaterial
         color={0xe0e0e0}
         shininess={100}

@@ -31,8 +31,9 @@ const LandPage = () => {
   return (
     <Center mt={6} mb={[10, 40, null, null]}>
       <Flex
+        pos={"relative"}
         borderRadius={10}
-        w={["98%", "95%", null]}
+        w={{base:"98%",sm:"95%"}}
         h={"max(87vh,500px)"}
         bgGradient="linear(to-br, #ff7e3d, #EA5455)"
         boxShadow="md"
