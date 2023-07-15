@@ -23,8 +23,8 @@ const Experience = () => {
   };
 
   const item = {
-    hidden: { opacity: 0, y: 60 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+    hidden: { opacity: 0, y: 180 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
   return (
     <Center
