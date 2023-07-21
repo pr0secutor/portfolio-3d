@@ -42,7 +42,7 @@ const Skills = () => {
       >
         <Heading
           position="absolute"
-          left={"-15vw"}
+          left={"-12vw"}
           as={motion.div}
           style={
             isSmallerScreen
