@@ -42,6 +42,7 @@ const Skills = () => {
       >
         <Heading
           position="absolute"
+          zIndex={-1}
           left={"-12vw"}
           as={motion.div}
           style={

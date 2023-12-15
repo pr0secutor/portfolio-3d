@@ -20,10 +20,14 @@ const Education = () => {
   };
 
   return (
-    <Center h={"max(87vh,550px)"} mt={{ base: 10, sm: 40 }} mb={{ base: 10, sm: 40 }}>
+    <Center
+      h={"max(87vh,550px)"}
+      mt={{ base: 10, sm: 40 }}
+      mb={{ base: 10, sm: 40 }}
+    >
       <VStack
         spacing={[20, 40, null, null]}
-        w={{base:"99%", sm:"95%"}}
+        w={{ base: "99%", sm: "95%" }}
         justifyContent="center"
         as={motion.div}
         variants={container}
@@ -33,6 +37,7 @@ const Education = () => {
       >
         <Heading
           position="absolute"
+          zIndex={-1}
           left={0}
           right={0}
           mt={{ base: 12, sm: 20, md: 28, lg: 16 }}
